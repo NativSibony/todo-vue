@@ -1,0 +1,62 @@
+{
+  "todo": [
+    {
+      "id": 123456,
+      "title": "Appontment to dentist (Sasha)",
+      "content": "Lorem ipsum dolor sit amet,  libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "12/02/2022"
+    }, 
+    {
+      "id": 123654,
+      "title": "Go to Shufersal to buy groceries",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat odit architecto possimus libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "13/02/2022"
+    },
+    {
+      "id": 615243,
+      "title": "Clean the house",
+      "content": "Lorem ipsum dolor sectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat odit architecto possimus libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "16/02/2022"
+    },
+    {
+      "id": 654321,
+      "title": "Meet with the wedding DJ",
+      "content": "Lorem ipsum dolor sit amet, mnemo, mollitia animi eum fugiat odit architecto possimus libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "16/04/2022"
+    }
+  ],
+  "inprogress": [
+    {
+      "id": 123987,
+      "title": "Build a vue project",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat odit architecto possimusnostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "10/02/2022"
+    },
+    {
+      "id": 147852,
+      "title": "Finish my College final project",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat odit architecto possimus libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "12/03/2022"
+    },
+    {
+      "id": 369852,
+      "title": "Build the project for Software Seminar class",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.ossimus libero error tempore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "15/04/2022"
+    }
+  ],
+  "completed": [
+    {
+      "id": 789654,
+      "title": "Appontment to dentist (Sasha)",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat odit architecto possimus libero error tempore dols. Incidunt, fugiat.",
+      "dateAdded": "12/02/2022"
+    },
+    {
+      "id": 654789,
+      "title": "Take the cat to the vet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam nemo, mollitia animi eum fugiat ompore dolor nostrum doloribus. Incidunt, fugiat.",
+      "dateAdded": "12/02/2022"
+    }
+  ]
+}
