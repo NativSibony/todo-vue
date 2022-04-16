@@ -77,7 +77,7 @@ export default {
       return dd + "/" + mm + "/" + yyyy;
     },
     fetchData() {
-      fetch("http://localhost:8080/static/data.json")
+      fetch("/static/data.json")
         .then(response => response.json())
         .then(data => (this.cData = data));
     }
