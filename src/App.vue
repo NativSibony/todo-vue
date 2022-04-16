@@ -40,6 +40,8 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 1.45rem;
   overflow-x: hidden;
+  --scrollbarBG: #f0dedb;
+  --thumbBG: #f7c8c3;
 }
 
 body {
@@ -57,18 +59,18 @@ main {
   padding: 40px;
 }
 
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background-color: #f5f5f500;
-}
-
 ::-webkit-scrollbar {
-  width: 10px;
-  background-color: #f5f5f575;
+  width: 11px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
 ::-webkit-scrollbar-thumb {
-  border-radius: 3px;
-  background-color: #ebcfcb;
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
 }
 </style>
