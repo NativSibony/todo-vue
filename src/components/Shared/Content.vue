@@ -90,8 +90,11 @@ export default {
 
 <style scoped>
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content > * {
+  flex: 1 1 20em;
 }
 .col {
   padding: 10px;
