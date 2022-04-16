@@ -30,7 +30,7 @@ export default {
   background-color: #fff;
   row-gap: 30px;
   padding: 20px;
-  height: 100%;
+  height: 100vh;
 }
 
 .side svg {

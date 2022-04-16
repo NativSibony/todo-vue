@@ -101,6 +101,8 @@ export default {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  max-height: 76vh;
+  overflow: auto;
 }
 
 .title {
