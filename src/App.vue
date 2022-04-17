@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <div class="sidebar">
-      <app-sidebar></app-sidebar>
+      <Sidebar />
     </div>
     <main>
-      <app-header></app-header>
-      <app-content></app-content>
+      <Header />
+      <Content />
     </main>
   </div>
 </template>
@@ -17,9 +17,9 @@ import Sidebar from "./components/Sidebar/Sidebar.vue";
 
 export default {
   components: {
-    "app-header": Header,
-    "app-content": Content,
-    "app-sidebar": Sidebar
+    Header,
+    Content,
+    Sidebar
   }
 };
 </script>

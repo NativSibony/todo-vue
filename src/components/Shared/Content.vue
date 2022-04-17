@@ -5,7 +5,7 @@
         <v-icon name="circle" fill="#6690d3"></v-icon>
         <h4>{{ title.toDo }}</h4>
       </div>
-      <app-card
+      <Card
         v-for="todo in cData.todo"
         :key="todo.id"
         :cardTitle="todo.title"
@@ -18,7 +18,7 @@
         <v-icon name="circle" fill="#f08a47"></v-icon>
         <h4>{{ title.inProgress }}</h4>
       </div>
-      <app-card
+      <Card
         v-for="inprogress in cData.inprogress"
         :key="inprogress.id"
         :cardTitle="inprogress.title"
@@ -31,7 +31,7 @@
         <v-icon name="circle" fill="#54ad70"></v-icon>
         <h4>{{ title.completed }}</h4>
       </div>
-      <app-card
+      <Card
         v-for="completed in cData.completed"
         :key="completed.id"
         :cardTitle="completed.title"
@@ -65,7 +65,7 @@ export default {
   },
   components: {
     "v-icon": Icon,
-    "app-card": Card
+    Card
   },
   methods: {
     getDate() {
